@@ -60,7 +60,7 @@ class Kick extends PluginTask{
 		    foreach(Server::getInstance()->getOnlinePlayers() as $player){
 			       $player->kick("Server Restart..");
 		       }
-		$this->getOwner()->getLogger()->info("[Rsr] All players kicked");
+		$this->getOwner()->getLogger()->info("[Rsr] Kicked All players");
 		$this->getOwner()->getLogger()->info("[Rsr] Done!! Server restarted!");
 	   }
 	   $count = $this->getOwner()->getCount();
