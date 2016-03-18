@@ -39,6 +39,7 @@ class restarter extends PluginBase{
     	Server::getInstance()->broadcastMessage("[Rsr] Server will restart in $number seconds");
     }
 }
+}
 
 class interval extends PluginTask{
 	public function __construct(PluginBase $owner){
